@@ -3,48 +3,89 @@
   height: 700px;
 }
 .header {
-    display: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 10%;
-    border: 1px solid red;
+    background-color: #b1acac;
 }
 .sideNav {
-    width: 4.4%;
+    display:float;
+    width: 4.5%;
     height: 90%;
-    border: 1px solid red;
     float: left;
+    background-color: #424c7b;
 }
 .chatWindow {
+    display:float;
+    width: 95%;
     height: 90%;
-    border: 1px solid red;
-    display: flex;
+    float: left;
 }
 .chatList {
+    clear: both;
+    display:float;
+    width: 24.5%;
     height: 100%;
-    border: 1px solid red;
-    flex: 3;
+    float: left;
+    background-color: #f1f0f0;
+}
+.userMessagesContainer {
+    width: 75%;
+    height: 100%;
+    float: left;
+    display:float;
 }
 .userMessages {
-    width: 80.2%;
-    height: 100%;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 85%;
 }
-.userMessageContainer {
-    border: 1px solid red;
-    flex: 10;
+.sendMessage {
+    width: 100%;
+    height: 14.9%;
 }
 .userMessage {
     width: 100%;
     height: 10%;
-    border: 1px solid red;
 }
-.sendMessage {
-    border: 1px solid red;
-    display: flex;
-    flex: 2;
-    width: 100%;
+.msgItems{
+
 }
+.message {
+    float: left;
+    clear: both;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+.user {
+    float: left;
+}
+.grey{
+  background-color: #eae6e6;
+}
+.timestamp {
+    float: right;
+}
+.msgTxt{
+    width: 98%;
+    font-size: 14px;
+    height: 45px;
+    margin: 6px;
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+}
+.msgTxt:focus {
+    outline: none;
+}
+.sendBtn{
+    width: 130px;
+    padding: 3px;
+    display: block;
+    float: right;
+    margin-top: 3px;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+
